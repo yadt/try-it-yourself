@@ -4,7 +4,7 @@
 
 We want to have a minimal setup of YADT, on a single host with dummy services to play with.
 
-## Test-System
+## Test Machine
 You might want to test YADT on a vm. All you need is a red hat based system.
 
 ### Prerequisites
