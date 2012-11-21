@@ -10,17 +10,13 @@ You might want to test YADT on a vm. All you need is a red hat based system.
 ### Prerequisites
 * red hat system version 6.x is preferred.
 * python >= 2.6.
+* git to clone the repository
 * yum, rpm and a user with sufficient rights to install/remove packages via `sudo yum`.
 * All hosts to be controlled are accessible passwordless via ssh.
 * EPEL has to be installed
 * passwordless ssh (to localhost)
 
 ## Checkout the files
-To clone the getting-started repository you will need a git client.
-
-```bash
-sudo yum install git
-```
 
 Clone the getting-started repository:
 
@@ -40,9 +36,11 @@ cat .ssh/id_rsa.pub >> .ssh/authorized_key
 
 ### Execute setup scripts
 
-Then call `./setup.sh` in each of these folders.
-The `yum` installation run will then ask you how to proceed: review the actions yum will take
-and type `yes` when appropriate.
+Please execute `./setup.sh` in the directories `yadtclient` and `yadtshell`.
+The `yum` installation run will then ask you if you want to proceed:
+review the actions yum will take and type `yes` when appropriate.
+
+### Touching the yadtshell log directory
 
 ```bash
 sudo mkdir /var/log/yadtshell
@@ -50,6 +48,7 @@ sudo chmod 777 /var/log/yadtshell
 ```
 
 ## "Hello World"
+
 Within the `yadtshell` folder, run `./helloworld.sh`.
 This script will
 
