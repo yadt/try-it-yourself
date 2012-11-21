@@ -56,6 +56,12 @@ sudo mkdir /var/log/yadtshell
 sudo chmod 777 /var/log/yadtshell
 ```
 
+### Touching the yadtclient log directory
+```bash
+sudo mkdir -p /var/log/yadt
+sudo chmod -R 777 yadt
+```
+
 ## "Hello World"
 
 Within the `yadtshell` folder, run `./helloworld.sh`.
