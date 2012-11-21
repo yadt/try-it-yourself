@@ -1,24 +1,30 @@
-## In a Nutshell
-* download all files from [yadtclient](https://github.com/yadt/yadtclient/downloads), place them into a folder on your system e.g called `yadtclient`.
-
-* in `yadtclient`, call `./setup.sh`, answer `yes`
-* download all files from [yadtshell](https://github.com/yadt/yadtshell/downloads), place them in `yadtshell`
-* in `yadtshell`, call `./setup.sh`, answer `yes`
-* in `yadtshell`, call `./helloworld.sh`
-
-## Goal
-
 ![concept yadtshell and yadtclient](https://github.com/downloads/yadt/yadtshell/yadtshell_to_yadtclient.png)
 
-We want to have a minimal setup of YADT, on a single host and with just some dummy services to play with.
-(Of course this setup is kind of academic; 
-   normal YADT setups consists of a dedicated yadtshell host and severall [target](https://github.com/yadt/yadtshell/wiki/Target) hosts.)
+We want to have a minimal setup of YADT, on a single host with dummy services to play with.
 
-## Prerequisites
+## Test-System
+You might want to test YADT on a vm. All you need is a red hat based system.
+
+### Prerequisites
+* red hat system version 6.x is preferred.
 * python >= 2.6.
 * yum, rpm and a user with sufficient rights to install/remove packages via `sudo yum`.
 * All hosts to be controlled are accessible passwordless via ssh.
 * EPEL has to be installed
+* passwordless ssh (to localhost)
+
+## Checkout the files
+To clone the getting-started repository you will need a git client.
+
+```bash
+sudo yum install git
+```
+
+Clone the getting-started repository:
+
+```bash
+git clone https://github.com/yadt/getting-started
+```
 
 ## Installation
 
@@ -41,7 +47,8 @@ wget https://github.com/downloads/yadt/yadtclient/cleanup.sh
 wget https://github.com/downloads/yadt/yadtclient/setup.sh
 wget https://github.com/downloads/yadt/yadtclient/yadt-mock-services-simple-1.5-1.noarch.rpm
 wget https://github.com/downloads/yadt/yadtclient/yadt-client-1.45-0.noarch.rpm
-#set the permissions
+
+# set the permissions
 chmod 744 *.sh
 ```
 
@@ -60,7 +67,8 @@ wget https://github.com/downloads/yadt/yadtshell/hostexpand-1.0_RELEASE-1.noarch
 wget https://github.com/downloads/yadt/yadtshell/python-twisted-12.0.0-4.el6.is24.noarch.rpm
 wget https://github.com/downloads/yadt/yadtshell/yadtshell-config-minimal-1.0-0.noarch.rpm
 wget https://github.com/downloads/yadt/yadtshell/yadtshell-1.3.12_33-0.el6.noarch.rpm
-#set the permissions
+
+# set the permissions
 chmod 744 *.sh
 ```
 
