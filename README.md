@@ -1,5 +1,3 @@
-# or: "Hello World" in YADT
-
 ## In a Nutshell
 * download all files from [yadtclient](https://github.com/yadt/yadtclient/downloads), place them into a folder on your system e.g called `yadtclient`.
 
