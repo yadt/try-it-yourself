@@ -1,3 +1,5 @@
+# How to setup a minimal system?
+
 ![concept yadtshell and yadtclient](https://github.com/downloads/yadt/yadtshell/yadtshell_to_yadtclient.png)
 
 We want to have a minimal setup of YADT, on a single host with dummy services to play with.
