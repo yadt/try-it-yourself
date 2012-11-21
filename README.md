@@ -13,12 +13,14 @@ You might want to test YADT on a vm. All you need is a red hat based system.
 * yum, rpm and a user with sufficient rights to install/remove packages via `sudo yum`.
 * All hosts to be controlled are accessible passwordless via ssh.
 * EPEL has to be installed. You will find the rpm on [The newest version of 'epel-release' for EL6](http://download.fedoraproject.org/pub/epel/6/i386/repoview/epel-release.html), for example
+
 ```bash
 wget http://ftp.tu-chemnitz.de/pub/linux/fedora-epel/6/i386/epel-release-6-7.noarch.rpm
-
 yum localinstall epel-release-6-7.noarch.rpm
 ```
+
 * git to clone the repository
+
 ```bash
 sudo yum install git
 ```
