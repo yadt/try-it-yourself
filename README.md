@@ -1,12 +1,12 @@
-# How to setup a minimal system?
+# Getting started ...
 
 Using the yadtshell it's easy to start and stop services on yadtclients.
 
 ![concept yadtshell and yadtclient](https://raw.github.com/yadt/getting-started/master/images/yadtshell_to_yadtclient.png)
 
-We want to have a minimal setup of YADT, on a single host with dummy services to play with.
+In this guide we want to show you how to set up a minimal YADT system, on a single host with dummy services to play with.
 
-## Test Machine
+## How to setup a minimal system?
 You might want to test YADT on a vm. All you need is a red hat based system.
 
 ### Prerequisites
