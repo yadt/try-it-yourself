@@ -38,42 +38,6 @@ ssh-keygen
 cat .ssh/id_rsa.pub >> .ssh/authorized_key
 ```
 
-### Install Yadtclient
-Download all [yadtclient](https://github.com/yadt/yadtclient/downloads) files and
-store them in a separate folders.
-
-```bash
-mkdir yadtclient
-cd yadtclient
-wget https://github.com/downloads/yadt/yadtclient/cleanup.sh 
-wget https://github.com/downloads/yadt/yadtclient/setup.sh
-wget https://github.com/downloads/yadt/yadtclient/yadt-mock-services-simple-1.5-1.noarch.rpm
-wget https://github.com/downloads/yadt/yadtclient/yadt-client-1.45-0.noarch.rpm
-
-# set the permissions
-chmod 744 *.sh
-```
-
-### Install Yadtshell
-Download all [yadtshell](https://github.com/yadt/yadtshell/downloads) files and
-store them in a separate folder.
-
-```bash
-mkdir yadtshell
-cd yadtshell
-wget https://github.com/downloads/yadt/yadtshell/cleanup.sh
-wget https://github.com/downloads/yadt/yadtshell/nextsteps.sh
-wget https://github.com/downloads/yadt/yadtshell/helloworld.sh
-wget https://github.com/downloads/yadt/yadtshell/setup.sh
-wget https://github.com/downloads/yadt/yadtshell/hostexpand-1.0_RELEASE-1.noarch.rpm
-wget https://github.com/downloads/yadt/yadtshell/python-twisted-12.0.0-4.el6.is24.noarch.rpm
-wget https://github.com/downloads/yadt/yadtshell/yadtshell-config-minimal-1.0-0.noarch.rpm
-wget https://github.com/downloads/yadt/yadtshell/yadtshell-1.3.12_33-0.el6.noarch.rpm
-
-# set the permissions
-chmod 744 *.sh
-```
-
 ### Execute setup scripts
 
 Then call `./setup.sh` in each of these folders.
