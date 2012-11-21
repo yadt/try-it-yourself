@@ -69,8 +69,7 @@ This script will
 
 1. create a simple target definition file in a new subfolder adequately named "helloworld",
 2. define the local host as member of the new target (using its [fqdn](http://en.wikipedia.org/wiki/Fully_qualified_domain_name)), 
-3. try to fetch the current status of the target via `yadtshell status` (for more information, see
-https://github.com/yadt/yadtshell/wiki/Status-Information and the other [docs](https://github.com/yadt/yadtshell/wiki)).
+3. try to fetch the current [status information](https://github.com/yadt/yadtshell/wiki/Status-Information) of the target via `yadtshell status` 
 
 ![yadtshell status](https://raw.github.com/yadt/getting-started/master/images/yadtshell_status.png)
 
