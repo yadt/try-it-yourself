@@ -6,11 +6,9 @@ Using the yadtshell it's easy to start and stop services on yadtclients.
 
 In this guide we want to show you how to set up a minimal YADT system, on a single host with dummy services to play with.
 
-## How to setup a minimal system?
-You might want to test YADT on a vm. All you need is a red hat based system.
-
-### Prerequisites
-* red hat system version 6.x is preferred.
+## Prerequisites
+* We recommend to test YADT in a vm.
+* red hat system version 6.x (preferred).
 * python >= 2.6.
 * yum, rpm and a user with sufficient rights to install/remove packages via `sudo yum`.
 * All hosts to be controlled are accessible passwordless via ssh.
