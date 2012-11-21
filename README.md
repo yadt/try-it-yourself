@@ -16,7 +16,7 @@ You might want to test YADT on a vm. All you need is a red hat based system.
 
 ```bash
 wget http://ftp.tu-chemnitz.de/pub/linux/fedora-epel/6/i386/epel-release-6-7.noarch.rpm
-yum localinstall epel-release-6-7.noarch.rpm
+sudo yum localinstall epel-release-6-7.noarch.rpm
 ```
 
 * git to clone the repository
