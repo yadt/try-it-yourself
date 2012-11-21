@@ -1,6 +1,6 @@
 # How to setup a minimal system?
 
-![concept yadtshell and yadtclient](https://github.com/downloads/yadt/yadtshell/yadtshell_to_yadtclient.png)
+![concept yadtshell and yadtclient](https://raw.github.com/yadt/getting-started/master/images/yadtshell_to_yadtclient.png)
 
 We want to have a minimal setup of YADT, on a single host with dummy services to play with.
 
@@ -72,7 +72,7 @@ This script will
 3. try to fetch the current status of the target via `yadtshell status` (for more information, see
 https://github.com/yadt/yadtshell/wiki/Status-Information and the other [docs](https://github.com/yadt/yadtshell/wiki)).
 
-![yadtshell status](https://github.com/downloads/yadt/yadtshell/yadtshell_status.png)
+![yadtshell status](https://raw.github.com/yadt/getting-started/master/images/yadtshell_status.png)
 
 
 
