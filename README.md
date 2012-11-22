@@ -59,7 +59,7 @@ sudo chmod 777 /var/log/yadtshell
 ### Touching the yadtclient log directory
 ```bash
 sudo mkdir -p /var/log/yadt
-sudo chmod -R 777 yadt
+sudo chmod -R 777 /var/log/yadt
 ```
 
 ## "Hello World"
