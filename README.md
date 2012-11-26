@@ -62,6 +62,11 @@ sudo mkdir -p /var/log/yadt
 sudo chmod -R 777 /var/log/yadt
 ```
 
+### Making the yadt cache directory
+```bash
+sudo mkdir -p /var/cache/yadt/
+sudo chmod -R 777 /var/cache/yadt
+
 ## "Hello World"
 
 Within the `yadtshell` folder, run `./helloworld.sh`.
