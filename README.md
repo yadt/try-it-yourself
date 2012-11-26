@@ -66,6 +66,7 @@ sudo chmod -R 777 /var/log/yadt
 ```bash
 sudo mkdir -p /var/cache/yadt/
 sudo chmod -R 777 /var/cache/yadt
+```
 
 ## "Hello World"
 
