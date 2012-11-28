@@ -39,7 +39,7 @@ git clone https://github.com/yadt/getting-started
 # keep the .ssh path but set the passphrase as you like
 ssh-keygen
 # copy the id_rsa.pub key to the authorized_key file in your .ssh folder (home directory)
-cat .ssh/id_rsa.pub >> .ssh/authorized_keys
+cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
 ```
 
 ### Execute setup scripts
