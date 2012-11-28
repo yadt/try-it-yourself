@@ -15,8 +15,7 @@ In this guide we want to show you how to set up a minimal YADT system, on a sing
 * EPEL has to be installed. You will find the rpm on [The newest version of 'epel-release' for EL6](http://download.fedoraproject.org/pub/epel/6/i386/repoview/epel-release.html), for example
 
 ```bash
-wget http://ftp.tu-chemnitz.de/pub/linux/fedora-epel/6/i386/epel-release-6-7.noarch.rpm
-sudo yum localinstall epel-release-6-7.noarch.rpm
+sudo yum localinstall http://ftp.tu-chemnitz.de/pub/linux/fedora-epel/6/i386/epel-release-6-7.noarch.rpm
 ```
 
 * git to clone the repository
