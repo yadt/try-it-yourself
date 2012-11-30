@@ -45,32 +45,14 @@ cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
 ### Execute setup scripts
 
 ```bash
-( cd yadtclient; ./setup.sh)
+( cd yadtclient; ./setup.sh )
 
-( cd yadtshell; ./setup.sh)
+( cd yadtshell; ./setup.sh )
 ```
 
 The `yum` installation runs will ask you if you want to proceed:
 review the actions yum will take and type `yes` when appropriate.
 
-### Touching the yadtshell log directory
-
-```bash
-sudo mkdir /var/log/yadtshell
-sudo chmod 777 /var/log/yadtshell
-```
-
-### Touching the yadtclient log directory
-```bash
-sudo mkdir -p /var/log/yadt
-sudo chmod -R 777 /var/log/yadt
-```
-
-### Making the yadt cache directory
-```bash
-sudo mkdir -p /var/cache/yadt/
-sudo chmod -R 777 /var/cache/yadt
-```
 
 ## "Hello World"
 
