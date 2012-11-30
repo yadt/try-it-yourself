@@ -44,8 +44,13 @@ cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
 
 ### Execute setup scripts
 
-Please execute `./setup.sh` in the directories `yadtclient` and `yadtshell`.
-The `yum` installation run will then ask you if you want to proceed:
+```bash
+( cd yadtclient; ./setup.sh)
+
+( cd ../yadtshell; ./setup.sh)
+```
+
+The `yum` installation runs will ask you if you want to proceed:
 review the actions yum will take and type `yes` when appropriate.
 
 ### Touching the yadtshell log directory
@@ -69,20 +74,20 @@ sudo chmod -R 777 /var/cache/yadt
 
 ## "Hello World"
 
-Within the `yadtshell` folder, run `./helloworld.sh`.
+```bash
+cd yadtshell
+./helloworld.sh
+```
+
 This script will
 
 1. create a simple target definition file in a new subfolder adequately named "helloworld",
 2. define the local host as member of the new target (using its [fqdn](http://en.wikipedia.org/wiki/Fully_qualified_domain_name)), 
-3. try to fetch the current [status information](https://github.com/yadt/yadtshell/wiki/Status-Information) of the target via `yadtshell status` 
+3. update the target and start all services,
+4. try to fetch the current [status information](https://github.com/yadt/yadtshell/wiki/Status-Information) of the target via `yadtshell status` 
 
 ![yadtshell status](https://raw.github.com/yadt/getting-started/master/images/yadtshell_status.png)
 
-
-
-## Next Steps
-Within the yadtshell folder, run `./nextsteps.sh`.
-This script will show how to stop and start all services in the helloworld target.
 For more commands, check out the [cheat sheet](https://github.com/yadt/cheatsheet/downloads) or the [wiki](https://github.com/yadt/yadtshell/wiki).
 
 ## Deinstallation
