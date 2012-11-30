@@ -45,6 +45,8 @@ cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
 ### Execute setup scripts
 
 ```bash
+cd getting-started
+
 ( cd yadtclient; ./setup.sh )
 
 ( cd yadtshell; ./setup.sh )
