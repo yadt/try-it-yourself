@@ -47,7 +47,7 @@ cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
 ```bash
 ( cd yadtclient; ./setup.sh)
 
-( cd ../yadtshell; ./setup.sh)
+( cd yadtshell; ./setup.sh)
 ```
 
 The `yum` installation runs will ask you if you want to proceed:
