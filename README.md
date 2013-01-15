@@ -1,8 +1,8 @@
-# Getting started ...
+# Try it yourself ...
 
-Using the yadtshell it's easy to start and stop services on yadtclients.
+... using the yadtshell it's easy to start and stop services on yadtclients.
 
-![concept yadtshell and yadtclient](https://raw.github.com/yadt/getting-started/master/images/yadtshell_to_yadtclient.png)
+![concept yadtshell and yadtclient](https://raw.github.com/yadt/try-it-yourself/master/images/yadtshell_to_yadtclient.png)
 
 In this guide we want to show you how to set up a minimal YADT system, on a single host with dummy services to play with.
 
