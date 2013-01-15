@@ -26,10 +26,10 @@ sudo yum install git
 
 ## Checkout the files
 
-Clone the getting-started repository:
+Clone the try-it-yourself repository:
 
 ```bash
-git clone https://github.com/yadt/getting-started
+git clone https://github.com/yadt/try-it-yourself
 ```
 
 ## Installation
@@ -45,7 +45,7 @@ cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
 ### Execute setup scripts
 
 ```bash
-cd getting-started
+cd try-it-yourself
 
 ( cd yadtclient; ./setup.sh )
 
@@ -70,7 +70,7 @@ This script will
 3. update the target and start all services,
 4. try to fetch the current [status information](https://github.com/yadt/yadtshell/wiki/Status-Information) of the target via `yadtshell status` 
 
-![yadtshell status](https://raw.github.com/yadt/getting-started/master/images/yadtshell_status.png)
+![yadtshell status](https://raw.github.com/yadt/try-it-yourself/master/images/yadtshell_status.png)
 
 For more commands, check out the [cheat sheet](https://github.com/yadt/cheatsheet/downloads) or the [wiki](https://github.com/yadt/yadtshell/wiki).
 
