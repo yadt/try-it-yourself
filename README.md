@@ -72,7 +72,7 @@ This script will
 
 ![yadtshell status](https://raw.github.com/yadt/try-it-yourself/master/images/yadtshell_status.png)
 
-For more commands, check out the [cheat sheet](https://github.com/yadt/cheatsheet/downloads) or the [wiki](https://github.com/yadt/yadtshell/wiki).
+For more commands, check out the cheat sheet from the [project page](http://www.yadt-project.org) or the [wiki](https://github.com/yadt/yadtshell/wiki).
 
 ## Deinstallation
 To remove all yadt related rpms, run `./cleanup.sh` in both the yadtclient and yadtshell folder.
