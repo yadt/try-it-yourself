@@ -15,7 +15,7 @@ In this guide we want to show you how to set up a minimal YADT system, on a sing
 * EPEL has to be installed. You will find the rpm on [The newest version of 'epel-release' for EL6](http://download.fedoraproject.org/pub/epel/6/i386/repoview/epel-release.html), for example
 
 ```bash
-sudo yum localinstall http://ftp.tu-chemnitz.de/pub/linux/fedora-epel/6/i386/epel-release-6-7.noarch.rpm
+sudo yum localinstall http://ftp.tu-chemnitz.de/pub/linux/fedora-epel/6/i386/epel-release-6-8.noarch.rpm
 ```
 
 * git to clone the repository
@@ -66,9 +66,9 @@ cd yadtshell
 This script will
 
 1. create a simple target definition file in a new subfolder adequately named "helloworld",
-2. define the local host as member of the new target (using its [fqdn](http://en.wikipedia.org/wiki/Fully_qualified_domain_name)), 
+2. define the local host as member of the new target (using its [fqdn](http://en.wikipedia.org/wiki/Fully_qualified_domain_name)),
 3. update the target and start all services,
-4. try to fetch the current [status information](https://github.com/yadt/yadtshell/wiki/Status-Information) of the target via `yadtshell status` 
+4. try to fetch the current [status information](https://github.com/yadt/yadtshell/wiki/Status-Information) of the target via `yadtshell status`
 
 ![yadtshell status](https://raw.github.com/yadt/try-it-yourself/master/images/yadtshell_status.png)
 
