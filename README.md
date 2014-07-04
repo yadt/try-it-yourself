@@ -19,7 +19,8 @@ In this guide we want to show you how to set up a minimal YADT system, on a sing
 
 ## Checkout the files
 /etc/yum.repos.d/yadt.repo
-```[yadt]
+```
+[yadt]
 name=yadt repo
 baseurl=http://dl.bintray.com/yadt/rpm
 gpgcheck=0
