@@ -2,14 +2,15 @@
 
 # Try it yourself ...
 
-... using the yadtshell it's easy to start and stop services on yadtclients.
+* it's easy to start and stop services on clients.
+* install operating system updates on multiple machines
+* Reboot client after kernelupdates
 
-![concept yadtshell and yadtclient](https://raw.github.com/yadt/try-it-yourself/master/images/yadtshell_to_yadtclient.png)
+![concept yadtshell and yadtminion](https://raw.github.com/yadt/try-it-yourself/master/images/yadtshell_to_yadtclient.png)
 
-In this guide we want to show you how to set up a minimal YADT system, on a single host with dummy services to play with.
+In this guide we want to show you how to set up a minimal YADT system, on two host with real world services to play with.
 
 ## Prerequisites
-* We recommend to test YADT in a vm.
 * a RHEL based system version 6.x (preferred).
 * python >= 2.6.
 * a user with sufficient rights to install/remove packages via `sudo yum`.
