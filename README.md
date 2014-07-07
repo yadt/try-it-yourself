@@ -1,6 +1,6 @@
-# WIP
-
 # Try it yourself ...
+
+[YADT - an Augmented Deployment Tool](http://www.yadt-project.org/)
 
 * it's easy to start and stop services on clients.
 * install operating system updates on multiple machines
@@ -81,8 +81,6 @@ please check the [wiki](https://github.com/yadt/yadtshell/wiki/Host-Configuratio
 
 you can run ```yadtshell``` commands on _targets_, a _target_ is a set of hosts which belong together. check the [wiki](https://github.com/yadt/yadtshell/wiki/Target)
 or the [cheatsheet](http://www.yadt-project.org/cheatsheet/cheatsheet.pdf) for further information.
-
-```target```
 
 ```yaml
 hosts:
