@@ -6,7 +6,7 @@
 * install operating system updates on multiple machines
 * Reboot client after kernel updates
 
-![concept yadtshell and yadtminion](https://raw.github.com/yadt/try-it-yourself/master/images/yadtshell_to_yadtclient.png)
+![concept yadtshell and yadtminion](https://raw.github.com/yadt/try-it-yourself/master/images/yadtshell_to_yadtminion.png)
 
 In this guide we want to show you how to set up a minimal YADT system, on two hosts with real world services to play with.
 the ```yadtshell``` on the first server is the controlling instrument, the ```yadt-minion``` is the client component.
@@ -88,7 +88,6 @@ or the [cheatsheet](http://www.yadt-project.org/cheatsheet/cheatsheet.pdf) for f
 hosts:
 - minion-testmachine
 ```
-
 ## using the yadtshell
 
 
