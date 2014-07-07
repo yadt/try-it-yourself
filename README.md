@@ -1,4 +1,4 @@
-# Try it yourself ...
+# try it yourself ...
 
 [YADT - an Augmented Deployment Tool](http://www.yadt-project.org/)
 
@@ -11,7 +11,7 @@
 In this guide we want to show you how to set up a minimal YADT system, on two hosts with real world services to play with.
 the ```yadtshell``` on the first server is the controlling instrument, the ```yadt-minion``` is the client component.
 
-## Prerequisites
+## prerequisites
 * a RHEL based system version 6.x (preferred).
 * python >= 2.6.
 * a user with sufficient rights to install/remove packages via `sudo yum`.
@@ -43,7 +43,7 @@ updates                     CentOS-6 - Updates      1.104
 yadt                        yadt repo               4
 repolist: 18.467
 ```
-## Installation
+## installation
 
 Now you can use ```yum``` to install the yadt components on your servers
 
@@ -88,4 +88,4 @@ hosts:
 ```
 ## using the yadtshell
 
-
+TODO
