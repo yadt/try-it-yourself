@@ -68,7 +68,7 @@ services:
 ```
 
 please check if the postfix process is up and running on minion side. ```sudo service postfix status```.
-You can use any process you want but avoid using the ```sshd``` process :smilie: .
+You can use any process you want but avoid using the ```sshd``` process :-) .
 
 ### long version
 
