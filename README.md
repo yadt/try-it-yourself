@@ -12,7 +12,7 @@ In this guide we want to show you how to set up a minimal YADT system, on two ho
 the ```yadtshell``` on the first server is the "remote controll", the ```yadt-minion``` is the client component.
 
 ## prerequisites
-* two RHEL based system version 6.x (preferred)
+* two RHEL based system version 6.x
 * python >= 2.6
 * a user with sufficient rights to install/remove packages via ```sudo yum```
 * All hosts to be controlled are accessible **passwordless** via ssh
