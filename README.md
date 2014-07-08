@@ -12,8 +12,8 @@ In this guide we want to show you how to set up a minimal YADT system, on two ho
 the ```yadtshell``` on the first server is the "remote controll", the ```yadt-minion``` is the client component.
 
 ## prerequisites
-* a RHEL based system version 6.x (preferred).
-* python >= 2.6.
+* two RHEL based system version 6.x (preferred)
+* python >= 2.6
 * a user with sufficient rights to install/remove packages via ```sudo yum```
 * All hosts to be controlled are accessible **passwordless** via ssh
 * EPEL has to be installed. You will find the rpm on [The newest version of 'epel-release' for EL6](http://download.fedoraproject.org/pub/epel/6/i386/repoview/epel-release.html), for example
@@ -68,7 +68,7 @@ services:
 ```
 
 please check if the postfix process is up and running on minion side. ```sudo service postfix status```.
-You can use any process you want but avoid using the ```sshd``` process.
+You can use any process you want but avoid using the ```sshd``` process :smilie: .
 
 ### long version
 
@@ -85,7 +85,7 @@ please check the [wiki](https://github.com/yadt/yadtshell/wiki/Host-Configuratio
 you can run ```yadtshell``` commands on _targets_, a _target_ is a set of hosts which belong together. check the [wiki](https://github.com/yadt/yadtshell/wiki/Target)
 or the [cheatsheet](http://www.yadt-project.org/cheatsheet/cheatsheet.pdf) for further information.
 
-save this snipplet as a file named```target``` (e.g in your home folder)
+save this snipplet as a file named ```target``` (e.g in your home folder)
 
 ```yaml
 hosts:
@@ -109,17 +109,26 @@ now call ```status```
 
 ![yadtshell_status](https://raw.githubusercontent.com/yadt/try-it-yourself/new_howto/images/yadtshell_status.png)
 
-### yadtshell update
-
-![yadtshell_status](https://raw.githubusercontent.com/yadt/try-it-yourself/new_howto/images/yadtshell_status_with_update.png)
-
-as you can see we found an update of postfix, we can update the machine by calling ```update```.
-
 ### yadtshell service start/stop
 
-now try to start and stop you service on the machine, please check the [wiki](https://github.com/yadt/yadtshell/wiki/Services) and the [cheatsheet](http://www.yadt-project.org/cheatsheet/cheatsheet.pdf)
-for further information.
+now try to start and stop your service on the machine, please check the [wiki](https://github.com/yadt/yadtshell/wiki/Services) and the [cheatsheet](http://www.yadt-project.org/cheatsheet/cheatsheet.pdf)
+for further commands and usefull information.
 
 ```stop service://minion-testmachine/postfix```
 
 ```start service://minion-testmachine/postfix```
+
+### yadtshell update
+
+as you can see we found an update of postfix, we can update the machine by calling ```update```.
+![yadtshell_status](https://raw.githubusercontent.com/yadt/try-it-yourself/new_howto/images/yadtshell_status_with_update.png)
+
+### YADT Project
+
+[yadt-minion on github](https://github.com/yadt/yadt-minion)
+
+[yadtshell on github](https://github.com/yadt/yadtshell)
+
+[follow us on twitter](https://twitter.com/YadtProject)
+
+[YADT - an Augmented Deployment Tool](http://www.yadt-project.org/)
