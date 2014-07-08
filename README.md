@@ -103,8 +103,16 @@ starting yadt session
 yadt | home      target hosts: *unknown, call status first*
 ```
 
+### yadtshell status
+
 now call ```status```
 
 ![yadtshell_status](https://raw.githubusercontent.com/yadt/try-it-yourself/new_howto/images/yadtshell_status.png)
+
+### yadtshell update
+
+![yadtshell_status](https://raw.githubusercontent.com/yadt/try-it-yourself/new_howto/images/yadtshell_status_with_update.png)
+
+### yadtshell service start/stop
 
 TODO
