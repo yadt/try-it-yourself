@@ -82,10 +82,26 @@ please check the [wiki](https://github.com/yadt/yadtshell/wiki/Host-Configuratio
 you can run ```yadtshell``` commands on _targets_, a _target_ is a set of hosts which belong together. check the [wiki](https://github.com/yadt/yadtshell/wiki/Target)
 or the [cheatsheet](http://www.yadt-project.org/cheatsheet/cheatsheet.pdf) for further information.
 
+save this snipplet as a file named```target``` (e.g in your home folder)
+
 ```yaml
 hosts:
 - minion-testmachine
 ```
 ## using the yadtshell
+
+change your directory to the folder with the target file and enter ```init-yadtshell```
+
+you will see something like this:
+
+```
+starting yadt session
+
+yadt | home      target hosts: *unknown, call status first*
+```
+
+now call ```status```
+
+![yadtshell_status](https://raw.githubusercontent.com/yadt/try-it-yourself/new_howto/images/yadtshell_status.png)
 
 TODO
