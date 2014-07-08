@@ -15,7 +15,7 @@ the ```yadtshell``` on the first server is the "remote controll", the ```yadt-mi
 * a RHEL based system version 6.x (preferred).
 * python >= 2.6.
 * a user with sufficient rights to install/remove packages via ```sudo yum```
-* All hosts to be controlled are accessible **passwordless** via ssh.
+* All hosts to be controlled are accessible **passwordless** via ssh
 * EPEL has to be installed. You will find the rpm on [The newest version of 'epel-release' for EL6](http://download.fedoraproject.org/pub/epel/6/i386/repoview/epel-release.html), for example
 
 
@@ -66,6 +66,9 @@ save this snipplet as ```/etc/yadt.conf.d/10_postfix.yaml``` (4 **blanks** no **
 services:
     postfix:
 ```
+
+please check if the postfix process is up and running on minion side. ```sudo service postfix status```.
+You can use any process you want but avoid using the ```sshd``` process.
 
 ### long version
 
