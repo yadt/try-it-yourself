@@ -113,6 +113,13 @@ now call ```status```
 
 ![yadtshell_status](https://raw.githubusercontent.com/yadt/try-it-yourself/new_howto/images/yadtshell_status_with_update.png)
 
+as you can see we found an update of postfix, we can update the machine by calling ```update```.
+
 ### yadtshell service start/stop
 
-TODO
+now try to start and stop you service on the machine, please check the [wiki](https://github.com/yadt/yadtshell/wiki/Services) and the [cheatsheet](http://www.yadt-project.org/cheatsheet/cheatsheet.pdf)
+for further information.
+
+```stop service://minion-testmachine/postfix```
+
+```start service://minion-testmachine/postfix```
