@@ -9,7 +9,7 @@
 ![concept yadtshell and yadtminion](https://raw.githubusercontent.com/yadt/try-it-yourself/new_howto/images/yadtshell_to_yadtminion.png)
 
 In this guide we want to show you how to set up a minimal YADT system, on two hosts with real world services to play with.
-the ```yadtshell``` on the first server is the "remote controll", the ```yadt-minion``` is the client component.
+the ```yadtshell``` on the first server is the "remote control", the ```yadt-minion``` is the client component.
 
 ## prerequisites
 * two RHEL based system version 6.x
