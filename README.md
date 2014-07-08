@@ -2,19 +2,19 @@
 
 [YADT - an Augmented Deployment Tool](http://www.yadt-project.org/)
 
-* it's easy to start and stop services on clients.
+* it's easy to start and stop services on clients
 * install operating system updates on multiple machines
 * Reboot client after kernel updates
 
 ![concept yadtshell and yadtminion](https://raw.githubusercontent.com/yadt/try-it-yourself/new_howto/images/yadtshell_to_yadtminion.png)
 
 In this guide we want to show you how to set up a minimal YADT system, on two hosts with real world services to play with.
-the ```yadtshell``` on the first server is the controlling instrument, the ```yadt-minion``` is the client component.
+the ```yadtshell``` on the first server is the "remote controll", the ```yadt-minion``` is the client component.
 
 ## prerequisites
 * a RHEL based system version 6.x (preferred).
 * python >= 2.6.
-* a user with sufficient rights to install/remove packages via `sudo yum`.
+* a user with sufficient rights to install/remove packages via ```sudo yum```
 * All hosts to be controlled are accessible **passwordless** via ssh.
 * EPEL has to be installed. You will find the rpm on [The newest version of 'epel-release' for EL6](http://download.fedoraproject.org/pub/epel/6/i386/repoview/epel-release.html), for example
 
@@ -60,7 +60,7 @@ on the client server:
 
 ### tl;dr
 
-save this snipplet as ```/etc/yadt.conf.d/10_postfix.yaml```(4 **blanks** no **tabs**)
+save this snipplet as ```/etc/yadt.conf.d/10_postfix.yaml``` (4 **blanks** no **tabs**)
 
 ```yaml
 services:
