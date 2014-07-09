@@ -14,8 +14,10 @@ the ```yadtshell``` on the first server is the "remote control", the ```yadt-min
 ## prerequisites
 * two RHEL based system version 6.x
 * python >= 2.6
-* a user with sufficient rights to install/remove packages via ```sudo yum```
-* All hosts to be controlled are accessible **passwordless** via ssh
+* a user with sufficient rights to:
+	* install/remove packages via ```sudo yum```
+	* start and stop services via ```sudo service...```
+* All hosts to be controlled are accessible **passwordless** via ssh from the yadtshell server
 * EPEL has to be installed. You will find the rpm on [The newest version of 'epel-release' for EL6](http://download.fedoraproject.org/pub/epel/6/i386/repoview/epel-release.html), for example
 
 
