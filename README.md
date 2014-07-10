@@ -78,7 +78,7 @@ The yadt-minion gets conﬁgured via ```*.yaml``` ﬁles in the
 ```/etc/yadt.conf.d/``` directory; they get merged in alphanumeric
 order. Please note Indented blocks have to start with **4 blanks**.
 
-the yadt-minion rpm provides its default configuration as ```00_defaults.yaml```.
+The yadt-minion rpm provides its default configuration as ```00_defaults.yaml```.
 please check the [wiki](https://github.com/yadt/yadtshell/wiki/Host-Configuration) or [cheatsheet](http://www.yadt-project.org/cheatsheet/cheatsheet.pdf) for further information about service configuration.
 
 
