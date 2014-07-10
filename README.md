@@ -12,11 +12,11 @@ In this guide we want to show you how to set up a minimal YADT system, on two ho
 the ```yadtshell``` on the first server is the "remote control", the ```yadt-minion``` is the client component.
 
 ## prerequisites
-* two RHEL based system version 6.x
-* python >= 2.6
-* a user with sufficient rights to:
-	* install/remove packages via ```sudo yum```
-	* start and stop services via ```sudo service ...```
+* Two RHEL based system version 6.x
+* Python >= 2.6
+* A user with sufficient rights to:
+	* Install/remove packages via ```sudo yum```
+	* Start and stop services via ```sudo service ...```
 * All hosts to be controlled are accessible **passwordless** via ssh from the yadtshell server
 * EPEL has to be installed. You will find the rpm on [The newest version of 'epel-release' for EL6](http://download.fedoraproject.org/pub/epel/6/i386/repoview/epel-release.html), for example
 
