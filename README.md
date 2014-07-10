@@ -93,7 +93,7 @@ The yadt-minion gets conﬁgured via ```*.yaml``` ﬁles in the
 order. Please note Indented blocks have to start with **4 blanks**.
 
 The yadt-minion rpm provides its default configuration as
-```00_defaults.yaml```.  please check the
+```00_defaults.yaml```.  Please check the
 [wiki](https://github.com/yadt/yadtshell/wiki/Host-Configuration) or
 [cheatsheet](http://www.yadt-project.org/cheatsheet/cheatsheet.pdf) for further
 information about service configuration.
