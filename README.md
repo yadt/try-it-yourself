@@ -118,7 +118,9 @@ please note "minion-testmachine" ist the hostname of the minion server.
 ## using the yadtshell
 
 change your directory to the folder with the target file and enter
-```init-yadtshell```
+```
+init-yadtshell
+```
 
 you will see something like this:
 
