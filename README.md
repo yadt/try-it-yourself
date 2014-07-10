@@ -29,7 +29,7 @@ server is the "remote control", the ```yadt-minion``` is the client component.
 
 ## install the rpms
 
-create [or
+Create [or
 download](https://raw.githubusercontent.com/yadt/try-it-yourself/new_howto/yadt.repo)
 this file on your testmachines; this adds our repository to your RHEL based
 system.
@@ -82,7 +82,7 @@ services:
     postfix:
 ```
 
-please check if the postfix process is up and running on minion side. ```sudo
+Please check if the postfix process is up and running on minion side. ```sudo
 service postfix status```.  You can use any process you want but avoid using
 the ```sshd``` process :-) .
 
@@ -101,8 +101,8 @@ information about service configuration.
 
 ## configuration of the yadtshell
 
-you can run ```yadtshell``` commands on _targets_, a _target_ is a set of hosts
-which belong together. check the
+You can run ```yadtshell``` commands on _targets_, a _target_ is a set of hosts
+which belong together. Check the
 [wiki](https://github.com/yadt/yadtshell/wiki/Target) or the
 [cheatsheet](http://www.yadt-project.org/cheatsheet/cheatsheet.pdf) for further
 information.
@@ -138,7 +138,7 @@ now call ```status```
 
 ### yadtshell service start/stop
 
-now try to start and stop your service on the machine, please check the
+Now try to start and stop your service on the machine, please check the
 [wiki](https://github.com/yadt/yadtshell/wiki/Services) and the
 [cheatsheet](http://www.yadt-project.org/cheatsheet/cheatsheet.pdf) for further
 commands and usefull information.
@@ -149,7 +149,7 @@ commands and usefull information.
 
 ### yadtshell update
 
-as you can see we found an update of postfix, we can update the machine by
+As you can see we found an update of postfix, we can update the machine by
 calling ```update```.
 ![yadtshell_status](https://raw.githubusercontent.com/yadt/try-it-yourself/new_howto/images/yadtshell_status_with_update.png)
 
