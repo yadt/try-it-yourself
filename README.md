@@ -2,8 +2,8 @@
 
 [YADT - an Augmented Deployment Tool](http://www.yadt-project.org/)
 
-* it's easy to start and stop services on clients
-* install operating system updates on multiple machines
+* It's easy to start and stop services on clients
+* Install operating system updates on multiple machines
 * Reboot client after kernel updates
 
 ![concept yadtshell and yadtminion](https://raw.githubusercontent.com/yadt/try-it-yourself/new_howto/images/yadtshell_to_yadtminion.png)
