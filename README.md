@@ -8,21 +8,32 @@
 
 ![concept yadtshell and yadtminion](https://raw.githubusercontent.com/yadt/try-it-yourself/new_howto/images/yadtshell_to_yadtminion.png)
 
-In this guide we want to show you how to set up a minimal YADT system, on two hosts with real world services to play with.
-The ```yadtshell``` on the first server is the "remote control", the ```yadt-minion``` is the client component.
+In this guide we want to show you how to set up a minimal YADT system, on two
+hosts with real world services to play with.  The ```yadtshell``` on the first
+server is the "remote control", the ```yadt-minion``` is the client component.
 
 ## prerequisites
+
 * Two RHEL based system version 6.x
 * Python >= 2.6
 * A user with sufficient rights to:
-	* Install/remove packages via ```sudo yum```
-	* Start and stop services via ```sudo service ...```
-* All hosts to be controlled are accessible **passwordless** via ssh from the yadtshell server
-* EPEL has to be installed. You will find the rpm on [The newest version of 'epel-release' for EL6](http://download.fedoraproject.org/pub/epel/6/i386/repoview/epel-release.html), for example
+    * Install/remove packages via ```sudo yum```
+    * Start and stop services via ```sudo service ...```
+* All hosts to be controlled are accessible **passwordless** via ssh from the
+  yadtshell server
+* EPEL has to be installed. You will find the rpm on [The newest version of
+  'epel-release' for
+  EL6](http://download.fedoraproject.org/pub/epel/6/i386/repoview/epel-release.html),
+  for example
 
 
 ## install the rpms
-create [or Download](https://raw.githubusercontent.com/yadt/try-it-yourself/new_howto/yadt.repo) this file on your testmachines; this adds our repository to your RHEL based system.
+
+create [or
+Download](https://raw.githubusercontent.com/yadt/try-it-yourself/new_howto/yadt.repo)
+this file on your testmachines; this adds our repository to your RHEL based
+system.
+
 ```
 /etc/yum.repos.d/yadt.repo
 ```
@@ -45,6 +56,7 @@ updates                     CentOS-6 - Updates      1.104
 yadt                        yadt repo               4
 repolist: 18.467
 ```
+
 ## installation
 
 Now you can use ```yum``` to install the yadt components on your servers
@@ -62,15 +74,17 @@ on the client server:
 
 ### tl;dr
 
-save this snipplet as ```/etc/yadt.conf.d/10_postfix.yaml``` (4 **blanks** no **tabs**)
+save this snipplet as ```/etc/yadt.conf.d/10_postfix.yaml``` (4 **blanks** no
+**tabs**)
 
 ```yaml
 services:
     postfix:
 ```
 
-please check if the postfix process is up and running on minion side. ```sudo service postfix status```.
-You can use any process you want but avoid using the ```sshd``` process :-) .
+please check if the postfix process is up and running on minion side. ```sudo
+service postfix status```.  You can use any process you want but avoid using
+the ```sshd``` process :-) .
 
 ### long version
 
@@ -78,14 +92,20 @@ The yadt-minion gets conﬁgured via ```*.yaml``` ﬁles in the
 ```/etc/yadt.conf.d/``` directory; they get merged in alphanumeric
 order. Please note Indented blocks have to start with **4 blanks**.
 
-The yadt-minion rpm provides its default configuration as ```00_defaults.yaml```.
-please check the [wiki](https://github.com/yadt/yadtshell/wiki/Host-Configuration) or [cheatsheet](http://www.yadt-project.org/cheatsheet/cheatsheet.pdf) for further information about service configuration.
+The yadt-minion rpm provides its default configuration as
+```00_defaults.yaml```.  please check the
+[wiki](https://github.com/yadt/yadtshell/wiki/Host-Configuration) or
+[cheatsheet](http://www.yadt-project.org/cheatsheet/cheatsheet.pdf) for further
+information about service configuration.
 
 
 ## configuration of the yadtshell
 
-you can run ```yadtshell``` commands on _targets_, a _target_ is a set of hosts which belong together. check the [wiki](https://github.com/yadt/yadtshell/wiki/Target)
-or the [cheatsheet](http://www.yadt-project.org/cheatsheet/cheatsheet.pdf) for further information.
+you can run ```yadtshell``` commands on _targets_, a _target_ is a set of hosts
+which belong together. check the
+[wiki](https://github.com/yadt/yadtshell/wiki/Target) or the
+[cheatsheet](http://www.yadt-project.org/cheatsheet/cheatsheet.pdf) for further
+information.
 
 save this snipplet as a file named ```target``` (e.g in your home folder)
 
@@ -97,7 +117,8 @@ please note "minion-testmachine" ist the hostname of the minion server.
 
 ## using the yadtshell
 
-change your directory to the folder with the target file and enter ```init-yadtshell```
+change your directory to the folder with the target file and enter
+```init-yadtshell```
 
 you will see something like this:
 
@@ -115,8 +136,10 @@ now call ```status```
 
 ### yadtshell service start/stop
 
-now try to start and stop your service on the machine, please check the [wiki](https://github.com/yadt/yadtshell/wiki/Services) and the [cheatsheet](http://www.yadt-project.org/cheatsheet/cheatsheet.pdf)
-for further commands and usefull information.
+now try to start and stop your service on the machine, please check the
+[wiki](https://github.com/yadt/yadtshell/wiki/Services) and the
+[cheatsheet](http://www.yadt-project.org/cheatsheet/cheatsheet.pdf) for further
+commands and usefull information.
 
 ```stop service://minion-testmachine/postfix```
 
@@ -124,7 +147,8 @@ for further commands and usefull information.
 
 ### yadtshell update
 
-as you can see we found an update of postfix, we can update the machine by calling ```update```.
+as you can see we found an update of postfix, we can update the machine by
+calling ```update```.
 ![yadtshell_status](https://raw.githubusercontent.com/yadt/try-it-yourself/new_howto/images/yadtshell_status_with_update.png)
 
 ### YADT Project
