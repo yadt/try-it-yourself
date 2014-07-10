@@ -34,7 +34,7 @@ gpgcheck=0
 ```
 check the repository with:
 ```bash
-sudo yum repolist
+$ sudo yum repolist
 ```
 
 you will see something like this:
