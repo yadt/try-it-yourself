@@ -6,7 +6,7 @@
 * Install operating system updates on multiple machines
 * Reboot client after kernel updates
 
-![concept yadtshell and yadtminion](https://raw.githubusercontent.com/yadt/try-it-yourself/new_howto/images/yadtshell_to_yadtminion.png)
+![concept yadtshell and yadtminion](https://raw.githubusercontent.com/yadt/try-it-yourself/master/images/yadtshell_to_yadtminion.png)
 
 In this guide we want to show you how to set up a minimal YADT system, on two
 hosts with real world services to play with.  The ```yadtshell``` on the first
@@ -134,7 +134,7 @@ yadt | home      target hosts: *unknown, call status first*
 
 now call ```status```
 
-![yadtshell_status](https://raw.githubusercontent.com/yadt/try-it-yourself/new_howto/images/yadtshell_status.png)
+![yadtshell_status](https://raw.githubusercontent.com/yadt/try-it-yourself/master/images/yadtshell_status.png)
 
 ### yadtshell service start/stop
 
@@ -151,7 +151,7 @@ commands and usefull information.
 
 As you can see we found an update of postfix, we can update the machine by
 calling ```update```.
-![yadtshell_status](https://raw.githubusercontent.com/yadt/try-it-yourself/new_howto/images/yadtshell_status_with_update.png)
+![yadtshell_status](https://raw.githubusercontent.com/yadt/try-it-yourself/master/images/yadtshell_status_with_update.png)
 
 ### YADT Project
 
