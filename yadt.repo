@@ -1,0 +1,4 @@
+[yadt]
+name=yadt repo
+baseurl=http://dl.bintray.com/yadt/rpm
+gpgcheck=0
