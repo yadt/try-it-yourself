@@ -30,7 +30,7 @@ server is the "remote control", the ```yadt-minion``` is the client component.
 ## install the rpms
 
 Create [or
-download](https://raw.githubusercontent.com/yadt/try-it-yourself/new_howto/yadt.repo)
+download](https://raw.githubusercontent.com/yadt/try-it-yourself/master/yadt.repo)
 this file on your testmachines; this adds our repository to your RHEL based
 system.
 
