@@ -29,13 +29,15 @@ server is the "remote control", the ```yadt-minion``` is the client component.
 
 ## install the rpms
 
-Create [or
-download](https://raw.githubusercontent.com/yadt/try-it-yourself/master/yadt.repo)
-this file on your testmachines; this adds our repository to your RHEL based
-system.
-
+this adds our repository to your RHEL based system:
 ```
-/etc/yum.repos.d/yadt.repo
+sudo yum-config-manager --add-repo https://raw.githubusercontent.com/yadt/try-it-yourself/master/yadt.repo``
+```
+
+lets have a look into the file:
+
+```bash
+cat /etc/yum.repos.d/yadt.repo
 ```
 ```bash
 [yadt]
