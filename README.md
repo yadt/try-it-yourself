@@ -31,7 +31,7 @@ server is the "remote control", the ```yadt-minion``` is the client component.
 
 this adds our repository to your RHEL based system:
 ```
-sudo yum-config-manager --add-repo https://raw.githubusercontent.com/yadt/try-it-yourself/master/yadt.repo``
+sudo yum-config-manager --add-repo https://raw.githubusercontent.com/yadt/try-it-yourself/master/yadt.repo
 ```
 
 let's have a look into the file:
