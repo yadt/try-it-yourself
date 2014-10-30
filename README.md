@@ -14,7 +14,7 @@ server is the "remote control", the ```yadt-minion``` is the client component.
 
 ## prerequisites
 
-* Two RHEL based system version 6.x
+* Two RHEL based system version 6.x or 7.x
 * Python >= 2.6
 * A user with sufficient rights to:
     * Install/remove packages via ```sudo yum```
@@ -32,6 +32,10 @@ server is the "remote control", the ```yadt-minion``` is the client component.
 this adds our repository to your RHEL based system:
 ```
 sudo yum-config-manager --add-repo https://raw.githubusercontent.com/yadt/try-it-yourself/master/yadt.repo
+```
+or this on RedHat 7 machines:
+```
+sudo yum-config-manager --add-repo https://raw.githubusercontent.com/yadt/try-it-yourself/master/yadt-7.repo
 ```
 
 let's have a look into the file:

@@ -1,0 +1,4 @@
+[yadt]
+name=yadt repo
+baseurl=http://dl.bintray.com/yadt/rhel-7
+gpgcheck=0
