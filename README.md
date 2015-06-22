@@ -171,4 +171,4 @@ calling ```update```.
 
 ### Overview of all YADT Components
 
-![overview of all yadt components](https://cdn.rawgit.com/yadt/try-it-yourself/master/images/overview.svg)
+![overview of all yadt components](https://cdn.rawgit.com/yadt/try-it-yourself/766de4018158b52d1ed130c75407ae6c75509dd2/images/overview.svg)
