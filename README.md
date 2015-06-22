@@ -168,3 +168,7 @@ calling ```update```.
 [follow us on twitter](https://twitter.com/YadtProject)
 
 [YADT - an Augmented Deployment Tool](http://www.yadt-project.org/)
+
+### Overview of all YADT Components
+
+![overview of all yadt components](https://cdn.rawgit.com/yadt/try-it-yourself/master/images/overview.svg)
